@@ -1,0 +1,138 @@
+.first-page-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.first-page__logo {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  z-index: 4;
+  background: url('logo.png');
+  width: 376px;
+  height: 348px;
+}
+
+.first-page__background {
+  height: 100vh;
+  width: 100vw;
+  background: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.first-page__img-elems {
+  width: 100%;
+  height: 50%;
+}
+
+.first-page__mafia-1 {
+  left: -79px;
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.mafia-1 {
+  width: 577px;
+  height: 876px;
+  background: url('MafiaCostume_2022-1.png');
+  background-repeat: no-repeat;
+}
+
+.first-page__box {
+  bottom: 15px;
+  right: 40px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.first-page__box__glow {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background: url('glow-1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box {
+  z-index: 3;
+  background: url('boxes.png');
+  width: 766px;
+  height: 525px;
+}
+
+.first-page__mafia-2 {
+  position: absolute;
+  z-index: 2;
+  align-items: flex-end;
+  justify-content: space-between;
+  bottom: 0;
+  right: -25px;
+}
+
+.mafia-2 {
+  width: 678px;
+  height: 876px;
+  background: url('MafiaCostume_2022-2.png');
+  background-repeat: no-repeat;
+}
+
+.first-page__text-block {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-page__text-block__elems {
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-page__text__header {
+  font-family: Roboto Condensed ;
+  font-size: 36px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.first-page__text__description {
+  font-family: Roboto Condensed ;
+  font-size: 20px;
+  color: white;
+}
+
+.first-page__glow {
+  width: 70%;
+  height: 100px;
+  background: url('blue-glow.png');
+}
+
+.second-page-container {
+  width: 100%;
+  height: 100%;
+}

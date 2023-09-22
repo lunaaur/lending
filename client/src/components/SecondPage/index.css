@@ -1,0 +1,163 @@
+.second-page__background {
+  background: url('background-2.png');
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.second-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-page__header {
+  color: #416DF4;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.second-page__dog {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.second-page__elipse {
+  position: absolute;
+  background: url('Ellipse.png');
+  border-radius: 50%;
+  height:600px;
+  width:600px;
+  opacity: 80%;
+}
+
+.second-page__dog-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 441px;
+  height: 891px;
+  background: url('Vito.png');
+}
+
+.second-page__table-block {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-page__options-block {
+  width: 82%;
+  display: flex;
+
+}
+
+.second-page__options {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.second-page__option-1, .second-page__option-2 {
+  margin: 0 17px 10px 0;
+  padding: 5px;
+  border: 1px solid #671D007A;
+  font-size: 12px;
+  color:#671D00;
+}
+
+.second-page__table {
+  border: 1px solid #671D007A;
+  display: grid;
+  grid-template-columns:  76px 340px 150px 150px;
+  grid-template-rows: repeat(3, 76px);
+}
+
+.second-page__table-row-long {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #671D007A;
+  border-top: 1px solid #671D007A;
+  color: white;
+  text-wrap: wrap;
+}
+
+.second-page__table-row {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #671D007A;
+  border-top: 1px solid #671D007A;
+  color: white;
+}
+
+
+.second-page__block__image {
+  background: url('box.png');
+  width: 402px;
+  height: 323px;
+}
+
+.second-page__blocks {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-page__block__item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.second-page__payment {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.second-page__block__price {
+  color: white;
+  margin-top: 89px;
+}
+
+
+.price {
+  font-size: 50px;
+}
+.second-page__payment-buttons {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+button {
+  width: 180px;
+  height: 40px;
+  padding: 10px;
+  background-color: #FCFF00;
+  border-radius: 10px;
+}
